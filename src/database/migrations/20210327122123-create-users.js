@@ -13,12 +13,12 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      created_at: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
       email: {
         type: Sequelize.DATE,
+        allowNull: false,
+      },
+      created_at: {
+        type: Sequelize.STRING,
         allowNull: false,
       },
       updated_at: {
